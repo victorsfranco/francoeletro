@@ -1,0 +1,49 @@
+/*========== RESET ===========*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*========== VARIABLES ===========*/
+:root {
+
+    font-size: 100%;
+
+    /*===== COLOR VARIABLES =====*/
+    --hue: 159;
+    --title-color: hsl(var(--hue), 41%, 10%);
+    --text-color: hsl(0%, 0%, 46%);
+    --base-color: hsl(var(--hue), 36%, 57%);
+    --body-color: hsl(0%, 0%, 98%);
+}
+
+/*========== LAYOUT ===========*/
+
+.search {
+    border-radius: 15%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(140, 146, 233);
+}
+
+.search input {
+    margin-left: 10rem;
+    width: 25rem;
+}
