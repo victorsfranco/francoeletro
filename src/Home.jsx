@@ -11,15 +11,12 @@ import { useState } from "react";
 
 const Home = () => {
     const [name, setName] = useState();
-    const [visible, setVisible] = useState(true);
-
-    if (2 > 1 && 5 < 10) {
-    }
+    const [visible, setVisible] = useState(false);
 
     return (
         <>
             {visible && (
-                <div id="prodreg">
+                <div id="product-register">
                     <h3>Adicionar Produto</h3>
                     <div className="icon">
                         <FiPackage size={25} />
@@ -46,7 +43,7 @@ const Home = () => {
                 </div>
             )}
 
-            <div id="search">
+            <div id="search-box">
                 <input placeholder="Buscar..." type="text" />
             </div>
             <table>
@@ -70,10 +67,10 @@ const Home = () => {
                             />
                         </td>
                         <td>
-                            <button id="edit">
+                            <button id="edit-button">
                                 <FiEdit color=" rgb(127,36,255);" /> Editar
                             </button>
-                            <button id="remove">
+                            <button id="remove-button">
                                 <FiTrash2 /> Remover
                             </button>
                         </td>
@@ -89,10 +86,10 @@ const Home = () => {
                             />
                         </td>
                         <td>
-                            <button id="edit">
+                            <button id="edit-button">
                                 <FiEdit color=" rgb(127,36,255);" /> Editar
                             </button>
-                            <button id="remove">
+                            <button id="remove-button">
                                 <FiTrash2 /> Remover
                             </button>
                         </td>
@@ -108,11 +105,11 @@ const Home = () => {
                             />
                         </td>
                         <td>
-                            <button id="edit">
-                                <FiEdit color=" rgb(127,36,255);" /> Editar
+                            <button id="edit-button">
+                                <FiEdit color= "rgb(127,36,255);" /> Editar
                             </button>
-                            <button id="remove">
-                                <FiTrash2 /> Remover
+                            <button id="remove-button">
+                                <FiTrash2 color= "rgba(255,42,48,255);" /> Remover
                             </button>
                         </td>
                     </tr>
