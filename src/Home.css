@@ -44,11 +44,12 @@ img {
 
 #prodreg h3 {
         display: flex;
-        margin-left: 1.2rem;
+        margin-left: 2.15rem;
         margin-bottom: 1.2rem;
 }
 
 #prodreg button {
+    cursor: pointer;
     border-radius: 1rem;
     border: none;
     display: flex;
@@ -56,7 +57,7 @@ img {
     padding: 0.5rem;
     width: 8rem;
     margin: 0.5rem auto;
-    background-color: rgb(99, 76, 191);
+    background-color: rgb(127,36,255);
     color: aliceblue;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 6px 0px;
 }
@@ -75,7 +76,7 @@ img {
     margin: 0;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 5px 8px 0px;
     padding: 2rem;
-    background-color: rgb(99, 76, 191);
+    background-color: rgb(51,0,180);
     justify-content: center;
 }
 
@@ -84,38 +85,67 @@ img {
     padding: 0.70rem;
     margin-right: 3rem;
     border-radius: 1.5rem;
-    border: 2px solid rgb(67, 46, 153);
+    border: 2px solid rgb(39, 21, 121);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     
 }
 
-#search button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5rem;
-    border-radius: 1.5rem;
-    border: 2px solid rgb(67, 46, 153);
-}
 
 /*========== PRODUCTS TABLE ===========*/
 
 table {
-    align-items: center;
-    margin: 10rem auto;
+    border-collapse: collapse;
+    margin: 7rem auto;
     padding: 3rem;
     background-color: rgb(255, 255, 255);
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+thead {
+    border: 1px solid rgb(240, 240, 240);
+    background-color: rgb(250, 250, 250);
 }
 
 th {
-    padding: 0 4rem 1rem 0;
-    background-color: rgb(255, 255, 255);
-    }
+    padding: 0.5rem 4rem 1rem 1rem;
+}
+
+tbody {
+    text-align: center;
+}
+
+tbody tr {
+    margin: 3rem;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
 
 table button {
-    padding: 1rem;
-    margin: 0 0.5rem 0 0rem;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    margin: 1rem 0.5rem 1rem 1.5rem;
     border-radius: 1.5rem;
-    border: 2px solid rgb(67, 46, 153);
+
+}
+
+#edit {
+    border: 2px solid  rgb(85, 34, 214);
+    color: rgb(85, 34, 214);
+}
+
+#remove {
+    border: 2px solid  rgba(255,42,48,255);
+    color: rgba(255,42,48,255);
+}
+
+.footer button{
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    background-color: rgb(85, 34, 214);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    border: none
 }
