@@ -101,19 +101,18 @@ table {
 }
 
 thead {
+
     border: 1px solid rgb(240, 240, 240);
     background-color: rgb(250, 250, 250);
 }
 
-th {
+th  {
+
     padding: 0.5rem 4rem 1rem 1rem;
 }
 
-tbody {
-    text-align: center;
-}
+tr {
 
-tbody tr {
     margin: 3rem;
     border-bottom: 1px solid rgb(240, 240, 240);
 }
@@ -166,3 +165,15 @@ table button {
     background-color: rgb(127,36,255);
 
 }
+
+::-webkit-scrollbar {
+    width: 0.40rem;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgb(218, 216, 255)
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(94, 94, 239);
+  }

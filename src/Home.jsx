@@ -52,7 +52,7 @@ const Home = () => {
                         <th>Produto</th>
                         <th>Preço</th>
                         <th>Imagem</th>
-                        <th></th>
+                        <th>{/* intentionally empty */}</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -106,10 +106,11 @@ const Home = () => {
                         </td>
                         <td>
                             <button id="edit-button">
-                                <FiEdit color= "rgb(127,36,255);" /> Editar
+                                <FiEdit color="rgb(127,36,255);" /> Editar
                             </button>
                             <button id="remove-button">
-                                <FiTrash2 color= "rgba(255,42,48,255);" /> Remover
+                                <FiTrash2 color="rgba(255,42,48,255);" />{" "}
+                                Remover
                             </button>
                         </td>
                     </tr>
